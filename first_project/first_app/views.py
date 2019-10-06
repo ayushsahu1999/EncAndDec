@@ -13,7 +13,6 @@ def final(request):
     for message in storage:
         name = message
         break
-    print (type(name))
     name = str(name)
 
     n = str(encode(name))
